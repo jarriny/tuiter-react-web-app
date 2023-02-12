@@ -1,0 +1,87 @@
+
+body {
+    background-color: black;
+}
+
+.wd-rounded-corners{
+    border-radius: 30px;
+}
+
+.wd-border-solid {
+    border-style: solid; }
+
+.wd-padding-fat {
+    padding: 10px;
+}
+.wd-bg-color-gray {
+    background-color: dimgray;
+}
+
+.wd-width-input{
+    width: 70%;
+}
+
+.wd-padding-gear{
+    float: right;
+    padding-right: 12px;
+}
+
+.wd-padding-for-all{
+    padding-left: 16px;
+}
+
+.wd-padding-all-around{
+    padding: 16px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+
+.wd-for-you {
+    color: rgb(29 161 242);
+    font-size: 15px;
+}
+
+.wd-links {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+
+.wd-bg-color-for-you {
+    background-color: rgb(29 161 242);
+    width: 60px;
+    height: 1px;
+}
+
+.wd-padding-post-pic{
+    float: right;
+}
+
+.wd-grey-border {
+    border-width: 2px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+.wd-flex-box {
+    border: 5px black;
+    margin: 5px;
+}
+
+.wd-flex-box-white {
+    background-color: black;
+    color: white;
+}
+
+.wd-flex-box-darkgray {
+    background-color: black;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-clear-both {
+    clear: both;
+}
