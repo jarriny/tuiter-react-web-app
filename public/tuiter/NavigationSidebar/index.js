@@ -1,6 +1,8 @@
-function NavigationSidebar() {
+
+
+const NavigationSidebar = () => {
     return(`
-    <div class="col-2 d-none d-xl-block">
+   <div class="col-2 d-none d-xl-block">
             <div class="list-group">
 
                 <a href="../home.html"
@@ -283,3 +285,4 @@ function NavigationSidebar() {
         </div>
  `);
 }
+export default NavigationSidebar;
