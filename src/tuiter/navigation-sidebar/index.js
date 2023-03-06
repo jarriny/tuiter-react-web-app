@@ -13,8 +13,7 @@ const NavigationSidebar = (
                     ${active === 'home'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-home pt-1"></i>
-                        icon
+                        <i className="bi bi-house-door-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         Home
@@ -25,8 +24,7 @@ const NavigationSidebar = (
                     ${active === 'explore'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-hashtag pt-1"></i>
-                        icon
+                        <i className=" bi bi-hash pt-1"></i>
                     </div>
                     <div className="col-10">
                         Explore
@@ -37,8 +35,7 @@ const NavigationSidebar = (
                     ${active === 'notifications'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-bell pt-1"></i>
-                        icon
+                        <i className=" bi bi-bell-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         Notifications
@@ -49,8 +46,7 @@ const NavigationSidebar = (
                     ${active === 'messages'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-envelope pt-1"></i>
-                        icon
+                        <i className=" bi bi-envelope-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         Messages
@@ -61,8 +57,7 @@ const NavigationSidebar = (
                     ${active === 'bookmarks'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-bookmark pt-1"></i>
-                        icon
+                        <i className=" bi bi-bookmark-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         Bookmarks
@@ -73,8 +68,7 @@ const NavigationSidebar = (
                     ${active === 'lists'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-list pt-1"></i>
-                        icon
+                        <i className=" bi bi-list-task pt-1"></i>
                     </div>
                     <div className="col-10">
                         Lists
@@ -85,8 +79,7 @@ const NavigationSidebar = (
                     ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-user pt-1"></i>
-                        icon
+                        <i className=" bi bi-person-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         Profile
@@ -97,8 +90,7 @@ const NavigationSidebar = (
                     ${active === 'more'?'active':''}`}>
                 <div className="row">
                     <div className="col-2">
-                        <i className=" fa fa-info pt-1"></i>
-                        icon
+                        <i className=" bi bi-info-circle-fill pt-1"></i>
                     </div>
                     <div className="col-10">
                         More
