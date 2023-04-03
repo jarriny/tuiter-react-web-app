@@ -1,7 +1,6 @@
 import React from "react";
-import postsArray from "./posts.json";
-import whoArray from "../who-to-follow-list/who.json";
-import WhoToFollowListItem from "../who-to-follow-list/who-to-follow-list-item";
+
+import {useSelector} from "react-redux";
 const PostSummaryItem = (
     {
         //post// = { "_id": 567, "topic": "Space", "userName": "SpaceX",
@@ -9,6 +8,8 @@ const PostSummaryItem = (
             //"time": "2h",   "image": "tesla.jpg" }
     }
 ) => {
+
+    const postsArray = useSelector(state => state.tuits)
     return(
         <ul className="list-group">
             {
