@@ -3,7 +3,7 @@ import {useDispatch} from "react-redux";
 import {useSelector} from "react-redux";
 import WhoToFollowListItem from "../who-to-follow-list/who-to-follow-list-item";
 import Liked from "./Liked";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = (
     {
 
@@ -13,8 +13,8 @@ const TuitItem = (
     const postsArray = useSelector(state => state.tuits)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
-    }
+        dispatch(deleteTuitThunk(id));
+    };
 
     return(
         <ul className="list-group">
