@@ -6,11 +6,11 @@ import Liked from "./Liked";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = (
     {
-
+        tuit
     }
 ) => {
 
-    const postsArray = useSelector(state => state.tuits)
+    //const postsArray = useSelector(state => state.tuits)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
@@ -19,7 +19,7 @@ const TuitItem = (
     return(
         <ul className="list-group">
             {
-                postsArray.map(post => <li className="list-group-item">
+                tuit.map(post => <li className="list-group-item">
                         <div className="row">
                             <div className="col-2">
                                 <img className="rounded-circle" height={45} width = {45} src={`/images/${post.image}`}/>

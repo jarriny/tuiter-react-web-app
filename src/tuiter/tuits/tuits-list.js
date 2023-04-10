@@ -30,7 +30,7 @@ const TuitsList = () => {
                 }
 
                 {
-                    <TuitItem/>
+                    <TuitItem tuit={tuits}/>
                 }
             </ul>
             </body>
